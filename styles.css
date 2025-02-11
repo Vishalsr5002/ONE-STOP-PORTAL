@@ -1,0 +1,126 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.login {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.login form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.login label {
+    display: block;
+    margin-bottom: 10px;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 3em 0;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1em;
+    border-radius: 50%;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: #555;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+.login .captcha-container {
+    position: relative;
+}
+
+.login .captcha-image {
+    position: absolute;
+    right: 14px;
+    top: 1px;
+    height: calc(100% - 22px);
+    cursor: pointer;
+}
+header {
+    background-color: #fff;
+    color: #fff;
+   
+}
+
+header .container {
+    color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-left img,
+.logo-right img {
+    height: 70px; /* Adjust the height of the logos as needed */
+}
+
+.center-content {
+    text-align: center;
+    flex-grow: 1; /* Allow the center content to grow and take available space */
+}
+
+.center-content h1 {
+    margin: 0;
+    font-size: 24px; /* Adjust the font size of the heading as needed */
+    line-height: 1.5; /* Adjust the line height of the heading as needed */
+}
+
+.center-content p {
+    margin: 5px 0 0;
+    font-size: 14px; /* Adjust the font size of the paragraph as needed */
+}
+
+.hero {
+    background-image: url('images/main 1.jpg'); /* Set background image */
+    background-size: cover;
+    background-position: center;
+    padding: 130px 0; /* Adjust padding to center content vertically */
+    text-align: center;
+    color: #fff;
+    opacity:0.9
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
